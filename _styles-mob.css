@@ -1,0 +1,210 @@
+ @media screen and (max-width: 800px) {
+	.hide {
+		display:none !important;
+	}
+	.hide2 {
+		display:initial !important;
+	}
+	body {
+		background-image:none;
+	}
+	h1 {
+		letter-spacing: normal;
+		word-spacing: normal;
+		border:solid 0px red;
+	}
+	div#drapeaux{
+		position:relative;
+		margin: auto;
+		width:180px;
+		top:0px;
+		right:auto;
+		border:solid 0px red;
+		margin-bottom:-20px;
+	 }
+	div#drapeaux img{
+		vertical-align:middle;
+	 }
+	header  {
+		text-align:center;
+		background-color: #FDC346;
+		margin-bottom:0px;
+		margin-top:40px;
+	}
+	header img {
+		float:none;
+		max-width:409px;
+		width:auto;
+		height:auto;
+	}
+	/***** MENUS  *****/
+	nav {
+		margin-top:-4px !important;
+	}
+	.menus {
+		width:100%;
+		position:fixed;
+		top:0px;
+		z-index:100;
+	}
+	.menus ul {
+		max-width:100%;
+		margin:0;
+		border:solid 0px red;
+		padding:0;
+	}
+	.menus ul:hover li {
+		display:block !important;
+	}
+	.menus ul li {
+		display:none;
+		width:100%;
+		margin:0;
+		padding:0;
+		border:solid 0px red;
+	}
+	.menus ul li:hover {
+		display:block;
+		color: #FFFFFF;
+		background-color: #69722f;
+		text-transform:capitalize;
+	}
+	.menus ul li a{
+		color: #69722f;
+		font-weight: bold;
+		line-height: 160%;
+		text-decoration:none;
+		padding : 0;
+		width:100%;
+		font-size: 18px;
+		margin:0;
+		border:solid 0px red;
+	}
+	.menus li:hover a{
+		color: #FFFFFF;
+		text-decoration:none;
+		background-color: #69722f;
+		text-transform:capitalize;
+	}
+	.menus li.mobile{
+		display:block !important;
+		height:30px;
+		overflow:hidden;
+		background-color: #69722f;
+		/*
+		background-image:url(photos/_menu.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		*/
+	}
+	.menus li.mobile img{
+		margin-top:2px;
+		height:26px;
+		width:auto;
+		/*
+		background-image:url(photos/_menu.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		*/
+	}
+	.menus li.mobile:hover {
+		/*
+		background-image:url(photos/_menu2.jpg);
+		*/
+	}
+	/******** MAIN ******/
+	#main {
+		width:auto;
+		margin:auto;
+		padding-bottom:12px !important;
+		margin-bottom:0px;
+	}
+	iframe {
+	width:320px;
+	height:180px;
+	}
+
+	h3 {
+		margin-top: 0px;
+		/*border:solid 1px yellow;*/
+		padding:0px;
+		/*background-color:green;*/
+	}
+	.location img {
+		display:none;
+	}
+ 	.chambre {
+		margin:auto;
+		text-align:center;
+		border-bottom:solid 2px #E06F37;
+		border-top:solid 0px #E06F37;
+		padding:0px;
+	}
+ 	.colonne_vignette {
+		max-width:420px; !important;
+		margin:auto;
+		text-align:center;
+		border:solid 0px red;
+		float:none;
+	}
+ 	.colonne_vignette p{
+		display:none;
+		text-align:center;
+	}
+ 	.colonne_vignette img{
+		max-width:420px !important;
+		width:100% !important;
+		height:auto;
+		text-align:center;
+	}
+	.colonne_vignette img:hover{
+		transform: none;
+		box-shadow: none;
+	}
+	table.sommaire_chambres {
+		margin-bottom:0px;
+		max-width:100%;
+	}
+	table.sommaire_chambres td {
+		width:auto;
+	}
+	table.sommaire_chambres img {
+		width:100px;
+		height:auto;
+	}
+	nav {
+		padding-bottom:0px;
+		padding-top:0px;
+	}
+/*** ACCES  ***/
+	#map {
+		width:100%;
+		height:360px;
+		float:none;
+		border:solid 0px white;
+		box-shadow:0px;
+		margin: auto;
+		margin-top:12px;
+	}
+	#carte {
+		width:100%;
+		height:auto;
+		text-align:center;
+	}
+	#carte img{
+		width:auto;
+		height:auto;
+		margin:auto;
+		border:solid 1px white;
+		display:block;
+	}
+}
+ @media screen and (max-width: 409px) {
+	header img {
+		max-width:100%;
+		height:auto;
+	}
+	nav a{
+		font-size: 18px;
+	}
+}

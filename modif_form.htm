@@ -1,0 +1,91 @@
+<? header("Content-Type: text/html;charset=utf-8") ?>
+<!DOCTYPE html >
+
+	
+<head>
+<meta name="robots" content="noindex">
+<title>Modif Amandari</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="_styles.css" rel="stylesheet" type="text/css" media="all" />
+<script src="tinymce/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+  tinymce.init({
+          selector: "textarea",
+          plugins: [
+                  "advlist autolink autosave link image lists charmap print preview hr anchor pagebreak spellchecker",
+                  " visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+                  "table contextmenu directionality emoticons template textcolor paste textcolor autoresize responsivefilemanager"
+          ],
+  
+          toolbar1: "bold italic underline strikethrough | alignleft aligncenter alignright alignjustify bullist numlist | outdent indent blockquote| forecolor backcolor |  fontselect fontsizeselect",
+           toolbar2: "responsivefilemanager | table | hr | subscript superscript | visualchars  nonbreaking code | undo redo | link unlink image media | styleselect  ",
+  
+          menubar: false,
+          toolbar_items_size: 'small',
+      image_advtab: true ,
+      width : 800,
+          external_filemanager_path:"/filemanager/",
+         filemanager_title:"Responsive Filemanager" ,
+         external_plugins: { "filemanager" : "/filemanager/plugin.min.js"},
+   });
+</script>
+</head>
+<body>
+<div><a href="/"><img src="photos/amandari-titre5.jpg" alt="l'Amandari chambres d'h&ocirc;tes Saint Tropez" width="556" height="170" border="0" /></a>
+  <h1><a href="/"></a>Annonce et Tarifs - <a href="modif.php?page=chambres">Chambres</a> - <a href="#covid">Covid</a></h1>
+<? include("_menu-fr.html") ?>
+<h2>Page d'accueil</h2>
+
+  <form method="post" action="<?print($action_form)?>" class="modifier">
+    <h2 style="color:white"><strong> Annonce d&eacute;filante en fran&ccedil;ais</strong></h2>
+          <p style="color:white">
+			<textarea name="champ_1_new" cols="120"  class="cadre_textearea" id="textarea1"><?print(stripslashes($champ_1))?></textarea>
+
+            <br />
+            <input name="button" type="submit" id="button" value="modifier" />
+          </p>
+          
+    <h2 style="color:white"><strong>Annonce d&eacute;filante en anglais</strong></h2>
+    <p> 
+			<textarea name="champ_2_new" cols="120" class="cadre_textearea" id="textarea2"><?print(stripslashes($champ_2))?></textarea>
+
+      <br />
+      <input name="button" type="submit" id="button2" value="modifier" />
+    </p>
+          <h2 style="color:white"><strong>tarifs en fran&ccedil;ais</strong></h2>
+          <p> 
+            <textarea name="champ_3_new" cols="120" rows="60" class="cadre_textearea" id="textarea3"><?print(stripslashes($champ_3))?></textarea>
+            <br />
+            <input name="button" type="submit" id="button3" value="modifier" />
+          </p>
+          
+    <!-- p class="cadre_annonce"><strong>Annonce en anglais</strong></p>
+          <textarea name="champ_3_new" cols="90" rows="3" id="textarea" class="cadre_annonce"><?print(stripslashes($champ_3))?></textarea>
+          <br />
+          <input name="button" type="submit" id="button2" value="modifier" / -->
+    <h2 style="color:white"><strong>tarifs en anglais</strong></h2>
+    <p> 
+      <textarea name="champ_4_new" cols="120" rows="60" class="cadre_textearea" id="textarea4"><?print(stripslashes($champ_4))?></textarea>
+      <br />
+      <input name="button" type="submit" id="button4" value="modifier" />
+    </p>
+	  
+	      <h2 style="color:white" id="covid"><strong>Charte sanitaire</strong></h2>
+    <p> 
+      <textarea name="champ_5_new" cols="120" rows="60" class="cadre_textearea" id="textarea5"><?print(stripslashes($champ_5))?></textarea>
+      <br />
+      <input name="button" type="submit" id="button5" value="modifier" />
+    </p>
+		  
+	<h2 style="color:white" id="covid"><strong>Health Charter</strong></h2>
+    <p> 
+      <textarea name="champ_6_new" cols="120" rows="60" class="cadre_textearea" id="textarea6"><?print(stripslashes($champ_6))?></textarea>
+      <br />
+      <input name="button" type="submit" id="button6" value="modifier" />
+    </p>
+  </form>
+        
+  <? include ("_menu-fr.html") ?>
+</div>
+</body>
+</html>

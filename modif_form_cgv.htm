@@ -1,0 +1,61 @@
+<!DOCTYPE html >
+
+	
+<head>
+<meta name="robots" content="noindex">
+<title>Modif Amandari</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="_styles2020.css" rel="stylesheet" type="text/css" media="all" />
+<script src="tinymce/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+  tinymce.init({
+          selector: "textarea",
+          plugins: [
+                  "advlist autolink autosave link image lists charmap print preview hr anchor pagebreak spellchecker",
+                  " visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+                  "table contextmenu directionality emoticons template textcolor paste textcolor autoresize responsivefilemanager"
+          ],
+  
+          toolbar1: "bold italic underline strikethrough | alignleft aligncenter alignright alignjustify bullist numlist | outdent indent blockquote| forecolor backcolor |  fontselect fontsizeselect",
+           toolbar2: "responsivefilemanager | table | hr | subscript superscript | visualchars  nonbreaking code | undo redo | link unlink image media | styleselect  ",
+  
+          menubar: false,
+          toolbar_items_size: 'small',
+      image_advtab: true ,
+      width : 800,
+          external_filemanager_path:"/filemanager/",
+         filemanager_title:"Responsive Filemanager" ,
+         external_plugins: { "filemanager" : "/filemanager/plugin.min.js"},
+  
+  });
+</script>
+</head>
+<body class="modif">
+  <? include("_menu-fr2021.htm") ?>
+  <header>
+    <div id="background"></div>
+    <div id="logo"></div>
+    <div id="titre">
+      <h1>l'Amandari<span>></span><span>Modification</span></h1>
+      <h2>Maison d'hôtes de charme, Gîtes et Roulotte dans le golfe de St Tropez (Le Plan de la Tour)</h2>
+    </div>
+  </header>
+<? include("modif_menu.htm") ?>
+<main>
+  <section>
+    <h2 class="center">CGV</h2>
+  <form method="post" action="<?print($action_form)?>" class="modifier">
+    
+    <p><strong>CGV FR</strong></p>
+     <textarea name="champ_1_new" id="cgv1"><?print(stripslashes($champ_1))?></textarea>
+     <input name="button" type="submit" id="button1" value="modifier" />
+        
+     <p><strong>CGV EN</strong></p>
+     <textarea name="champ2_new" id="cgv2"><?print(stripslashes($champ_2))?></textarea>
+     <input name="button" type="submit" id="button2" value="modifier" />
+
+
+</section>     
+</main> 
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+<!DOCTYPE html >
+
+	
+<head>
+<meta name="robots" content="noindex">
+<title>Modif Amandari</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="_styles2020.css" rel="stylesheet" type="text/css" media="all" />
+<script src="tinymce/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+  tinymce.init({
+          selector: "textarea",
+          plugins: [
+                  "advlist autolink autosave link image lists charmap print preview hr anchor pagebreak spellchecker",
+                  " visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+                  "table contextmenu directionality emoticons template textcolor paste textcolor autoresize responsivefilemanager"
+          ],
+  
+          toolbar1: "bold italic underline strikethrough | alignleft aligncenter alignright alignjustify bullist numlist | outdent indent blockquote| forecolor backcolor |  fontselect fontsizeselect",
+           toolbar2: "responsivefilemanager | table | hr | subscript superscript | visualchars  nonbreaking code | undo redo | link unlink image media | styleselect  ",
+  
+          menubar: false,
+          toolbar_items_size: 'small',
+      image_advtab: true ,
+      width : 800,
+          external_filemanager_path:"/filemanager/",
+         filemanager_title:"Responsive Filemanager" ,
+         external_plugins: { "filemanager" : "/filemanager/plugin.min.js"},
+  
+  });
+  </script>
+</head>
+<body class="modif">
+  <? include("_menu-fr2021.htm") ?>
+  <header>
+    <div id="background"></div>
+    <div id="logo"></div>
+    <div id="titre">
+      <h1>l'Amandari<span>></span><span>Modification</span></h1>
+      <h2>Maison d'hôtes de charme, Gîtes et Roulotte dans le golfe de St Tropez (Le Plan de la Tour)</h2>
+    </div>
+  </header>
+<? include("modif_menu.htm") ?>
+
+<main>
+  <section>
+    <h2 class="center">Chambres</h2>
+    <form method="post" action="<?print($action_form)?>" class="modifier">
+      <p><strong> Chambre Amande FR</strong></p>
+      <textarea name="champ_1_new" id="chambres1"><?print(stripslashes($champ_1))?></textarea>
+
+      <p><strong> Chambre Lavande FR</strong></p>
+      <textarea name="champ_2_new" id="chambres2"><?print(stripslashes($champ_2))?></textarea>
+
+      <p><strong>Chambre Olive FR</strong></p>
+      <textarea name="champ_3_new" id="chambres3"><?print(stripslashes($champ_3))?></textarea>
+
+      <p><strong>Chambre Romarin FR</strong></p>
+      <textarea name="champ_4_new" id="chambres4"><?print(stripslashes($champ_4))?></textarea>
+
+      <p><strong>Chambre Miel et Mimosa FR</strong></p>
+      <textarea name="champ_5_new" id="chambres5"><?print(stripslashes($champ_5))?></textarea>
+      <input name="button" type="submit" id="button" value="modifier" />
+
+      <p><strong> Room Almond EN</strong></p>
+      <textarea name="champ_6_new" id="chambres6"><?print(stripslashes($champ_6))?></textarea>
+
+      <p><strong> Room Lavender EN</strong></p>
+      <textarea name="champ_7_new" id="chambres7"><?print(stripslashes($champ_7))?></textarea>
+
+      <p><strong>Room Olive EN</strong></p>
+      <textarea name="champ_8_new" id="chambres8"><?print(stripslashes($champ_8))?></textarea>
+
+      <p><strong>Room Rosemary EN</strong></p>
+      <textarea name="champ_9_new" id="chambres9"><?print(stripslashes($champ_9))?></textarea>
+
+      <p><strong>Room Honey and Mimosa EN</strong></p>
+      <textarea name="champ_10_new" id="chambres10"><?print(stripslashes($champ_10))?></textarea>
+
+      <input name="button" type="submit" id="button" value="modifier" />
+    </form>
+  </section>     
+</main>
+
+</body>
+</html>

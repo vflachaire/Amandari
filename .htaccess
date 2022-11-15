@@ -1,0 +1,71 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 [OR]
+RewriteCond %{HTTP_HOST} ^provence-holidays.com
+RewriteRule (.*) https://www.provence-holidays.com/$1 [R=301,L]
+
+
+
+
+AddType text/html .htm .html
+AddHandler server-parsed .htm .html
+
+
+#2021-01-23 refonte du site
+Redirect permanent /ambiances.html https://www.provence-holidays.com/surplace.htm
+Redirect permanent /reservation.php https://www.provence-holidays.com/contact.php
+Redirect permanent /activite.html https://www.provence-holidays.com/loisirs.htm
+Redirect permanent /mesures-covid19.html https://www.provence-holidays.com/
+Redirect permanent /partenaires.html https://www.provence-holidays.com/credits.html
+
+Redirect permanent /ambiances.html https://www.provence-holidays.com/onsite.htm
+Redirect permanent /reservation-en.php https://www.provence-holidays.com/contact-en.php
+Redirect permanent /activities.html https://www.provence-holidays.com/leisure.htm
+Redirect permanent /nearby.html https://www.provence-holidays.com/leisure.htm
+
+
+#Redirect permanent /accueil-f.html http://www.provence-holidays.com/
+#Redirect permanent /maison-f.html http://www.provence-holidays.com/ambiances.html
+#Redirect permanent /chambres-f.html http://www.provence-holidays.com/chambresdhotes.html
+#Redirect permanent /activites-f.html http://www.provence-holidays.com/activites.html
+#Redirect permanent /activites-f2.html http://www.provence-holidays.com/activites.html
+#Redirect permanent /activites-i2.html http://www.provence-holidays.com/activites.html
+#Redirect permanent /prix-f.html http://www.provence-holidays.com/tarifs.html
+#Redirect permanent /itineraire-f.html http://www.provence-holidays.com/acces.htm
+#Redirect permanent /itinerairepdf.pdf http://www.provence-holidays.com/acces.htm
+#Redirect permanent /reservation-f.html http://www.provence-holidays.com/reservation.php
+#Redirect permanent /livre-f.html http://www.provence-holidays.com/
+#Redirect permanent /liens-f.html http://www.provence-holidays.com/partenaires.html
+#Redirect permanent /index-location-f.html http://www.provence-holidays.com/roulotte-gites.html
+#Redirect permanent /index-location.html http://www.provence-holidays.com/roulotte-gites.html
+#Redirect permanent /roulotte-f.html http://www.provence-holidays.com/roulotte-gites.html
+#Redirect permanent /boutonsf.html http://www.provence-holidays.com/
+#Redirect permanent /bande.html  http://www.provence-holidays.com/
+
+
+#Redirect permanent /index-gb.html http://www.provence-holidays.com/index-english.html
+#Redirect permanent /accueil-gb.html http://www.provence-holidays.com/index-english.html
+#Redirect permanent /boutonsgb.html http://www.provence-holidays.com/index-english.html
+#Redirect permanent /maison-gb.html http://www.provence-holidays.com/ambiance-en.html
+#Redirect permanent /chambres-gb.html http://www.provence-holidays.com/bedrooms.html
+#Redirect permanent /activites-gb.html http://www.provence-holidays.com/activities.html
+#Redirect permanent /prix-gb.html http://www.provence-holidays.com/rates.html
+#Redirect permanent /conditions http://www.provence-holidays.com/rates.html
+#Redirect permanent /itineraire-gb.html http://www.provence-holidays.com/access.htm
+#Redirect permanent /itineraire-f.html http://www.provence-holidays.com/access.htm
+#Redirect permanent /itineraire-i.html http://www.provence-holidays.com/access.htm
+#Redirect permanent /itineraire-a.html http://www.provence-holidays.com/access.htm
+#Redirect permanent /index-itineraire-gb.html http://www.provence-holidays.com/access.htm
+#Redirect permanent /reservation-gb.html http://www.provence-holidays.com/reservation-en.php
+#Redirect permanent /livre-gb.html http://www.provence-holidays.com/
+#Redirect permanent /liens-gb.html http://www.provence-holidays.com/partenaires.html
+#Redirect permanent /index-locationsaisonniere-gb.html http://www.provence-holidays.com/caravan-cottage.html
+#Redirect permanent /roulotte-gb.html http://www.provence-holidays.com/caravan-cottage.html
+
+#Redirect permanent /modif http://www.provence-holidays.com/modif.php
+
+# block visitors referred from semalt.com 
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} semalt\.com [NC] 
+RewriteCond %{HTTP_REFERER} buttons\-for\-website\.com
+RewriteCond %{HTTP_REFERER} social\-buttons.com
+RewriteRule .* - [F]

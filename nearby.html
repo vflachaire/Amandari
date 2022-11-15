@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+<title>Nearby : Tourism and leisure activities nearby and around the Amandari</title>
+<meta name="description" content="Things to see and do near Amandari, B &amp; B, Caravan and Holiday Plan de la Tour (Saint Tropez)">
+<link href="_styles2.css" rel="stylesheet" type="text/css">
+<link href="_styles-mob.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width" />
+<!--#include virtual="_analytics.html"-->
+<script> 
+function affich_tourisme(nodiapo) 
+{ 
+    document.tourisme.src="photos/tourisme-" + nodiapo + ".jpg";
+	//alert("photos/roulotte-" + nodiapo + ".jpg")
+} 
+function affich_loisirs(nodiapo) 
+{ 
+	//alert(nochambre + "photos/chambre_" + nodiapo + ".jpg")
+    document.loisirs.src="photos/loisirs-" + nodiapo + ".jpg";
+} 
+</script> 
+</head>
+
+
+<body>
+	  <!--#include virtual="_menu-en2.html"-->
+<header>
+<div id="drapeaux"> 
+  <!--#include virtual="_drapeaux2-en.html"-->
+</div>
+<a href="index-english.html"><img src="photos/amandari-titre5.jpg" alt="l'Amandari chambres d'h&ocirc;tes Saint Tropez" border="0"></a>
+  <h1>Nearby : tourism et leisures</h1>
+</header>
+
+  <div class="main">
+
+    <table border="0" class="sommaire_locations hide">
+          <tr>
+            <td><a href="#loisirs"><img src="photos/loisirs-4.jpg" alt="Leisures" ></a></td>
+            <td><a href="#tourisme"><img src="photos/tourisme-1.jpg" alt="Tourism"></a></td>
+          </tr>
+          <tr>
+            <td align="center"><a href="#loisirs" style="color:white">Leisures</a></td>
+            <td align="center"><a href="#tourisme" style="color:white">Tourism</a></td>
+          </tr>
+      </table></td>
+    </tr>
+
+   <div class="chambre" id="loisirs">
+<h3>Leisures</h3>   
+      <div class="location"><img src="photos/loisirs-4.jpg" alt="Loisirs"  name="loisirs"  class="cadrephoto"  id="gite"></div>
+          <div class="colonne_vignette">
+            <p><em>move the cursor over the thumbnail to enlarge</em></p>
+        <img src="photos/loisirs-1.jpg" alt="horse riding"onMouseOver="affich_loisirs('1')"><img src="photos/loisirs-6.jpg" alt="Electric bike" onMouseOver="affich_loisirs('6')"><img src="photos/loisirs-3.jpg" alt="Biking"onMouseOver="affich_loisirs('3')"><img src="photos/loisirs-4.jpg" alt="Golf"onMouseOver="affich_loisirs('4')"><img src="photos/loisirs-5.jpg" alt="Markets"onMouseOver="affich_loisirs('5')">
+        
+    </div>
+          <p>On site, Jacuzzi and relaxation
+            area, the petanque, table tennis offer you moments of conviviality
+            shared or individual healing (possibility of massages by appointment).</p>
+          <p>Electric bike rental.</p>
+          <p ><a href="http://www.golfe-saint-tropez-information.com/en" target="_blank">Around</a> :
+            Sportsmen's Paradise, the Var and the Massif des Maures offer a
+            varied choice between water sports (kayaking, sailing, windsurfing,
+            ...) and land sports (golf, hiking, horseback riding, mountain
+            biking, tennis, .. .).</p>
+  </div>
+
+    <div class="chambre" id="tourisme">
+          <h3>Tourism</h3>
+      <div class="location"><img src="photos/tourisme-1.jpg" alt="Tourism"  name="tourisme"   class="cadrephoto" ></div>
+		<div class="colonne_vignette">
+          <p><em>move the cursor over the thumbnail to enlarge</em></p>
+        <img src="photos/tourisme-1.jpg" alt="Sea"onMouseOver="affich_tourisme('1')"><img src="photos/tourisme-2.jpg" alt="Beaches"onMouseOver="affich_tourisme('2')"> <img src="photos/tourisme-3.jpg" alt="village"onMouseOver="affich_tourisme('3')"><img src="photos/tourisme-4.jpg" alt="hiking"onMouseOver="affich_tourisme('4')"> <img src="photos/tourisme-8.jpg" alt="Sea Mediterranean "onMouseOver="affich_tourisme('8')"><img src="photos/tourisme-5.jpg" alt="village"onMouseOver="affich_tourisme('5')"><img src="photos/tourisme-6.jpg" alt="Saint Tropez"onMouseOver="affich_tourisme('6')"><img src="photos/tourisme-7.jpg" alt="Provence"onMouseOver="affich_tourisme('7')">
+         </div>
+          <p>Less for leisure
+              sports, curious, greedy, "cultivated" find happiness within an
+              hour's drive: Cities &amp; Gardens of the Cote d'Azur, Nice, Cannes,
+              ..., Saint Paul de Vence  and its galleries, museums and Antibes,
+              Vallauris pottery, Biot and its glass blowers, Grasse and its perfumes,
+              Aix en Provence and its exhibitions or the masters restaurants
+      in Lorgues Var or Fayence.</p>
+          <p>Provence
+            d'Azur is full of surprises: perched villages (Ramatuelle, Grimaud,
+            Gassin, Les Arcs sur Argens, ...); white sandy beaches, coves, Provencal
+            markets and their typical products (wine, honey, chestnuts, truffle
+      , goat cheese, olive oil, ...); Gorges du Verdon.<br>
+          </p>
+        </div>
+      </div>
+        <!--#include virtual="_cartedevisite-en.html"-->
+   
+  <!--#include virtual="_copyright-fr.html"-->
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+div#drapeaux{
+	position:absolute;
+	margin: 10;
+	width:100px;
+	top:25px;
+	right:10px;
+	color: #FFFFFF;
+ }
+div#tripadvisor{
+	position:absolute;
+	margin: 10;
+	width:100px;
+	top:25px;
+	right:10px;
+
+}
+body {
+	background-color: #FDC346;
+	color: #ffff99;
+	padding: 0px;
+	font-family: "Lucida Sans", "Lucida Grande";
+	font-size: 14px;
+	background-image: url(photos/_bande.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+
+}
+a {
+	color: #E7DBD3;
+}
+p {
+	margin-bottom: 6px;
+	margin-height: 6px;
+}
+
+h1 {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	letter-spacing: 0.1em;
+	word-spacing: 0.1em;
+	color: white;
+	margin: 2;
+	text-align: center;
+	padding: 6px;
+
+}
+h2 {
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 12px;
+}
+h3 {
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin-bottom: 0px;
+	margin-height: 2px;
+	font-style: italic;
+	font-weight: bold;
+}
+.palmier {
+	/*background-image: url(photos/amandari-fond4.jpg);*/
+}
+.main {
+	font-size: 16px;
+	background-color: #596174;
+	border-bottom:4px solid #de7136;
+	border-top:4px solid #de7136;
+}
+.main p{
+	line-height: 120%;
+	margin: 6 0;
+}
+.main td{
+}
+.bordure-vert {
+	border: 1px solid #474B38;
+}
+.soustitre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #CC3409;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+.soustitre16 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #C40027;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+.surtitre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	letter-spacing: 0.2em;
+	word-spacing: 0.5em;
+	text-align: center;
+	margin: 4px;
+}
+.titre {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FEF5F3;
+	letter-spacing: 0.2em;
+	font-variant: small-caps;
+	margin-top:0;
+}
+.texte20 {
+	font-size: 18px;
+}
+.texte10 {
+	font-size: 10px;
+}
+.texte11 {
+	font-size: 11px;
+}
+.texte12 {
+	font-size: 12px;
+}
+.texte12 a{
+}
+.texte13 {
+	font-size: 13px;
+}
+.texte14 {
+	font-size: 14px;
+}
+.texte15 {
+	font-size: 15px;
+}
+.texte16 {
+	font-size: 16px;
+}
+.annonce {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #025306;
+	font-weight: bold;
+}
+.liencontact {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #996633;
+}
+.menus {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #69722f;
+	font-size: 15px;
+	text-align:center;
+
+}
+.menus a{
+	color: #69722f;
+	font-weight: bold;
+	line-height: 160%;
+	text-decoration:none;
+	padding-left : 4px;
+	padding-right : 4px;
+}
+.menus a:hover{
+	color: #FFFFFF;
+	text-decoration:none;
+	background-color: #69722f;
+}
+li {
+	list-style-position: outside;
+	list-style-type: disc;
+	padding: 3px 0px;
+	margin: 0px;
+	display:list-item;
+}
+ul {
+	margin: 0px;
+	padding: 0px 0px 0px 20px;
+}
+.lien-webmaster {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999999;
+	text-decoration: none;
+	font-size: 10px;
+}
+.lien-webmaster:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999999;
+	text-decoration: none;
+	font-size: 10px;
+}
+.cartedevisite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: normal;
+}
+.cartedevisite p{
+	margin:12;
+}
+.cartedevisite a {
+	color: #ffffff;
+}
+.copyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #4B413F;
+	font-weight: normal;
+}
+.copyright a{
+	color: #4B413F;
+}
+.copyright a:hover {
+	text-decoration: underline;
+}
+.lien_partenaire {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #7395A2;
+	font-weight: normal;
+}
+.lien_partenaire a{
+	color: #7395A2;
+}
+.referencement {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #AA6622;
+}
+.cadre_textearea {
+	text-align: center;
+}
+.cadrephoto {
+	border:1px solid #ffffff;
+;
+}
+input[type=submit] {padding:8px 16px;font-size:16px}

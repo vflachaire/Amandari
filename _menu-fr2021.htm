@@ -1,0 +1,80 @@
+<!------ MENU  ------>
+
+  <script>
+    function myFunction() {
+     var x = document.getElementById("menu");
+    if(x.style.display==""){x.style.display="none"};
+     if (x.style.display=="none") {x.style.display="flex" ; }
+     else {x.style.display="none" ;}
+   }
+ </script>
+ <script>
+    function myFunction2() {
+    var y = document.getElementById("btn-menu").getAttribute("aria-expanded"); 
+     if (y == "true")  { y = "false" } else { y = "true" }
+     document.getElementById("btn-menu").setAttribute("aria-expanded", y);
+     /*document.getElementById("btn-menu").innerHTML = "aria-expanded =" + y;*/
+     }
+ </script>	
+
+<nav class="navbar" id="navbar">
+  <ul role="menu" aria-labelledby="btn-menu" class="menu" id="menu">
+    <li class="current"></li>
+      <li class="icones"><a href="index-english.html"><img src="photos/drapeau-uk2.png" alt="L'Amandari english"></a>
+		<a href="tel:+33.603453739"><img src="photos/icone-telephone.png"></a>
+		<a href="mailto:amandari-chambredhote@wanadoo.fr"><img src="photos/icone-email.png"></a>
+		<a href="acces.htm"><img src="photos/icone-map.png"></a>
+    </li>
+    <li><span>l'Amandari<span>3</span></span>
+	     <ul>
+			<li><a href="/">Accueil</a></li>
+			<li><a href="surplace.htm">Sur place</a></li>
+			<li><a href="tabledhotes.html">Table d'h&ocirc;tes</a></li>
+      </ul>
+	</li>
+    <li><span>Hébergements<span>3</span></span>
+      <ul>
+        <li><a href="chambresdhotes.html">Les chambres</a></li>
+        <li><a href="roulotte-gites.html#roulotte">La roulotte</a></li>
+        <li><a href="roulotte-gites.html#gite">Le g&icirc;te</a></li>
+        <li><a href="roulotte-gites.html#mazet">Le mazet</a></li>
+      </ul>
+    </li>
+ 
+    <li><span>Les loisirs<span>3</span></span>
+      <ul>
+        <li><a href="loisirs.htm">Sport et détente</a></li>
+        <li><a href="loisirs.htm#tourisme">Tourisme &amp; culture</a></li>
+      </ul>
+    </li>
+    <li><a href="tarifs.html">Les tarifs</a></li>
+
+    <li><span> Contact<span>3</span></span>
+    <ul>
+      <li><a href="contact.php">Formulaire</a></li> 
+      <li><a href="acces.htm">Acc&egrave;s</a></li> 
+    </ul>
+  </li>
+
+	  <li><span>Actualit&eacute;s<span>3</span></span>
+		<ul>
+      <li><a href="news.htm">News</a></li>
+			<li><a href="https://www.facebook.com/lamandari/timeline">Facebook</a></li>
+			<li><a href="https://www.instagram.com/amandari____/">Instagram</a></li>
+		</ul>
+    </li>
+  </ul>
+  <button type="button" class="btn-menu" id="btn-menu" aria-haspopup="true" aria-controls="menu" onclick="myFunction(); myFunction2()"> <span class="btn-menu-icon"><span></span></span> <span class="btn-menu-label">Menu</span> <span class="btn-menu-label">Fermer</span> </button>
+  </nav>
+  <script>
+    const navi = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+        if(window.scrollY > 40) {
+          navi.classList.add('scroll');
+        }
+        else {
+          navi.classList.remove('scroll');
+        }
+    }) 
+  </script>
+  <!------ /MENU  ------>

@@ -1,0 +1,27 @@
+/*** TARIFS ***/
+
+table {margin:auto;border-collapse:initial;max-width:800px;}
+ td, th  {
+	margin:auto;
+	background-color:#11434c;
+	color:#f2dc10;
+	text-align:center;
+	border-color:#FDF2C2 0px solid;
+	height:50px;
+	padding:4px;
+}
+ td p, th p {
+	text-align:center;
+}
+section th  {
+    padding:8px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* couleurs 
+vert : #58e2c1
+vert foncé : #11434c
+bleu : #0a69ab
+jaune : #f2dc10; 
+jaune orangé : #f2b710 */

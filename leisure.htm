@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+<title>Surroundings: tourism and leisure activities in the vicinity, and around the Amandari</title>
+<meta name="description" content="Things to see and do near the Amandari, B&B, Roulotte and Gicirc;te at the Plan de la Tour (Gulf of Saint Tropez)">
+<link href="_styles2020.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/png" href="photos/favicon.ico"/>
+<meta name="viewport" content="width=device-width" />
+<!--#include virtual="_analytics.html"-->
+<script> 
+function affich_tourisme(nodiapo) 
+{ 
+
+  document.tourisme.src="photos/tourisme-" + nodiapo + ".jpg";
+  var pTourisme = document.getElementById('texteTourisme');
+  if (nodiapo == 1) {pTourisme.innerHTML ='Porquerolles';}
+  else if (nodiapo == 5) {pTourisme.innerHTML ='Provence\'s market';}
+  else if (nodiapo == 10) {pTourisme.innerHTML ='Abbaye du Thoronnet';}
+  else if (nodiapo == 11) {pTourisme.innerHTML ='Champignons';}
+  else if (nodiapo == 12) {pTourisme.innerHTML ='French Riviera';}
+  else if (nodiapo == 13) {pTourisme.innerHTML ='Festival des Arts in Grimaud';}
+  else if (nodiapo == 14) {pTourisme.innerHTML ='Saint Raphaël';}
+  else if (nodiapo == 15) {pTourisme.innerHTML ='Saint Tropez';}
+  else if (nodiapo == 16) {pTourisme.innerHTML ='Saint Tropez';}
+  
+	//alert("photos/tourisme-" + nodiapo + ".jpg")
+} 
+function affich_loisirs(nodiapo) 
+{ 
+	//alert(nochambre + "photos/chambre_" + nodiapo + ".jpg")
+    document.loisirs.src="photos/loisirs-" + nodiapo + ".jpg";
+} 
+</script> 
+<script type="text/javascript" src="https://booking.addock.co/widget.js"></script>
+<link href="https://www.provence-holidays.com/loisirs.htm" rel="alternate" hreflang="fr" /> 
+</head>
+
+
+<body>
+    <!--#include virtual="_menu-en2021.htm"-->
+    <header>
+        <div id="background"></div>
+        <div id="logo"></div>
+        <div id="titre">
+          <h1>l'Amandari<span>></span><span>leisure</span></h1>
+          <h2>Charming Guest House, Gites and Gipsy caravan in the Gulf of St Tropez (Le Plan de la Tour)</h2>
+        </div>
+      </header>
+
+    <main>
+        <section>   
+
+        <table class="sommaire_chambres">
+          <tr>
+                  <td><div><a href="#loisirs"><img src="photos/loisirs-4.jpg" alt="Loisirs" ></a><a href="#loisirs" >Sport and relaxation</a></div></td>
+                  <td><div><a href="#tourisme"><img src="photos/tourisme-1.jpg" alt="Tourisme"></a><a href="#tourisme" >Tourism &amp; culture</a></div></td>
+          </tr>
+        </table>  
+     </section>
+        <section id="loisirs">
+    <div class="chambre">
+   <h3>Sport and relaxation</h3>
+      <div class="location"><img src="photos/loisirs-4.jpg" alt="Loisirs"  name="loisirs"  class="cadrephoto"  id="gite"></div>
+          <div class="colonne_vignette"><p><em>move the cursor over the thumbnail to enlarge</em></p>
+            <img src="photos/loisirs-3.jpg" alt="Vélo" onMouseOver="affich_loisirs('3')"><img src="photos/loisirs-6.jpg" alt="Vélo Electrique" onMouseOver="affich_loisirs('6')"><img src="photos/loisirs-4.jpg" alt="Golf" onMouseOver="affich_loisirs('4')"><img src="photos/loisirs-1.jpg" alt="Cheval" onMouseOver="affich_loisirs('1')"><img src="photos/loisirs-7.jpg" alt="voile" onMouseOver="affich_loisirs('7')"><img src="photos/loisirs-8.jpg" alt="moto" onMouseOver="affich_loisirs('8')"><img src="photos/loisirs-9.jpg" alt="Plage" onMouseOver="affich_loisirs('9')"><img src="photos/loisirs-10.jpg" alt="Wake" onMouseOver="affich_loisirs('10')"></div>
+        
+        <!--#include virtual="modif.php?page=loisirs&affich=champ_3"-->
+      </div>
+  </div>
+  </section>
+  
+ <section id="tourisme">
+   <div class="chambre">
+ <h3>Tourism &amp; culture</h3>
+ <div class="location"><img src="photos/tourisme-1.jpg" alt="Tourisme"  name="tourisme"   class="cadrephoto" ><p id="texteTourisme">Tourism</p></div>
+		<div class="colonne_vignette">
+          <p><em>move the cursor over the thumbnail to enlarge</em></p>
+        <img src="photos/tourisme-1.jpg" alt="Plages" onMouseOver="affich_tourisme('1')"><img src="photos/loisirs-5.jpg" alt="Marchés de Provence"onMouseOver="affich_tourisme('5')"><img src="photos/tourisme-10.jpg" alt="Plages" onMouseOver="affich_tourisme('1')"><img src="photos/tourisme-1.jpg" alt="Plages" onMouseOver="affich_tourisme('10')"><img src="photos/tourisme-11.jpg" alt="Plages" onMouseOver="affich_tourisme('11')"><img src="photos/tourisme-12.jpg" alt="Plages" onMouseOver="affich_tourisme('12')"><img src="photos/tourisme-13.jpg" alt="Plages" onMouseOver="affich_tourisme('13')"><img src="photos/tourisme-14.jpg" alt="Plages" onMouseOver="affich_tourisme('14')"><img src="photos/tourisme-15.jpg" alt="Plages" onMouseOver="affich_tourisme('15')"><img src="photos/tourisme-16.jpg" alt="Plages" onMouseOver="affich_tourisme('16')"></div>
+                  <!--#include virtual="modif.php?page=loisirs&affich=champ_4"-->
+        </div>
+    </section>
+</main>   
+  <!--#include virtual="_foote-en.htm"-->
+</body>
+</html>
