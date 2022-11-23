@@ -1,22 +1,76 @@
 /*** TARIFS ***/
 
-table {margin:auto;border-collapse:initial;max-width:800px;}
- td, th  {
-	margin:auto;
-	background-color:#11434c;
-	color:#f2dc10;
-	text-align:center;
-	border-color:#FDF2C2 0px solid;
-	height:50px;
-	padding:4px;
+table {
+  margin: auto;
+  border-collapse: initial;
+  max-width: 800px;
 }
- td p, th p {
-	text-align:center;
+td,
+th {
+  margin: auto;
+  background-color: #11434c;
+  color: #f2dc10;
+  text-align: center;
+  border-color: #fdf2c2 0px solid;
+  height: 50px;
+  padding: 4px;
 }
-section th  {
-    padding:8px;
-    font-size:18px;
-    font-weight:bold;
+td p,
+th p {
+  text-align: center;
+}
+section th {
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*** Boutons réserver ***/
+div.reserver {
+  margin: 20px auto;
+  border: solid 0px green;
+  text-align: center;
+}
+div.reserver a {
+  clear: both;
+  display: block;
+
+  background-color: #f2dc10;
+  min-width: 160px;
+  height: 50px;
+  text-align: center;
+  color: #084c7c;
+  text-decoration: none;
+  line-height: 50px;
+  text-transform: uppercase;
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease-out;
+  vertical-align: middle;
+  padding: 0px 8px;
+  margin: 3px;
+}
+div.reserver a:hover {
+  background-color: #de7136;
+  color: #02111c;
+}
+div.reserver > a,
+div.reserver > p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1em;
+  border: solid 0px green;
+}
+div.reserver p {
+  line-height: 1em !important;
+  text-align: left;
+}
+div.reserver div {
+  border: solid 1px transparent;
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+  min-width: 250px;
 }
 
 /* couleurs 

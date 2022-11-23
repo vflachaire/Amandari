@@ -10,7 +10,7 @@ $champ_1="&lt;p&gt;La roulotte foraine des ann&amp;eacute;es 30, climatis&amp;ea
 &lt;p&gt;Elle dispose d&amp;rsquo;une terrasse privative &amp;eacute;quip&amp;eacute;e d&amp;rsquo;une douche ext&amp;eacute;rieure, d&amp;rsquo;un salon de jardin, d&amp;rsquo;un barbecue, de transats.&lt;/p&gt;
 &lt;div class=\&quot;reserver\&quot;&gt;&lt;a href=\&quot;tel:+33.494437920\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;T&amp;eacute;l&amp;eacute;phoner&lt;/a&gt; &lt;a href=\&quot;reservation.php?message=Roulotte\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;R&amp;eacute;server par email&lt;/a&gt; &lt;a href=\&quot;https://reservation.elloha.com/?idPublication=1d6251f0-8526-46e8-9370-e0dbcfcb1f19&amp;amp;idoi=53034d56-37c6-4908-9114-551e58f53101&amp;amp;culture=fr-FR&amp;amp;reload=1&amp;amp;searchFirstAvailableDates=1\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;R&amp;eacute;servation directe&lt;/a&gt;
 &lt;div&gt;
-&lt;p&gt;&lt;strong&gt;&amp;agrave; partir de 100 &amp;euro; &lt;/strong&gt;pour 2 personnes, petits dejeuners offerts&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;agrave; partir de 110 &amp;euro; &lt;/strong&gt;pour 2 personnes, petits dejeuners offerts&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;";
 
@@ -35,7 +35,7 @@ $champ_4="&lt;p&gt;The 1930s caravan, air-conditioned and fitted out for 2 peopl
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;div class=\&quot;reserver\&quot;&gt;&lt;a href=\&quot;tel:+33.494437920\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;Phone&lt;/a&gt; &lt;a href=\&quot;reservation-en.php?message=Gypsy%20Caravan\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;Book by email&lt;/a&gt; &lt;a href=\&quot;https://reservation.elloha.com/?idPublication=1d6251f0-8526-46e8-9370-e0dbcfcb1f19&amp;amp;idoi=53034d56-37c6-4908-9114-551e58f53101&amp;amp;culture=en-GB&amp;amp;reload=1&amp;amp;searchFirstAvailableDates=1\&quot; target=\&quot;_blank\&quot;&gt;Book now&lt;/a&gt;
 &lt;div&gt;
-&lt;p&gt;&lt;strong&gt;from 100 &amp;euro; &lt;/strong&gt;for 2 persons, breakfasts offered&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;from 110 &amp;euro; &lt;/strong&gt;for 2 persons, breakfasts offered&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;";
 
@@ -49,9 +49,11 @@ $champ_6="&lt;p&gt;Independent cottage offering an equipped kitchen, a dining ar
 
 $champ_7="&lt;p&gt;La roulotte foraine et le g&amp;icirc;te se trouvent dans la partie haute du jardin et b&amp;eacute;n&amp;eacute;ficient d&amp;rsquo;un grand espace de pelouse ombrag&amp;eacute;e par de nombreux arbres : figuier, caroubier, platane, oliviers, &amp;hellip;&lt;/p&gt;
 &lt;p&gt;Le mazet, dans la partie basse du jardin dispose d&amp;rsquo;une terrasse privative equip&amp;eacute;e.&lt;/p&gt;
+&lt;p&gt;En juillet et aout, notre maison est propos&amp;eacute;e dans sa totalit&amp;eacute;, sous forme de gite.&lt;/p&gt;
 &lt;p&gt;Le WIFI est accessible partout.&lt;/p&gt;";
 
-$champ_8="&lt;p&gt;The caravan and the g&amp;icirc;te are located in the upper part of the garden and benefit from a large lawn area shaded by numerous trees: fig, carob, plane tree, olive trees, ...&lt;br /&gt;&lt;br /&gt;The mazet, in the lower part of the garden, has a private equipped terrace.&lt;br /&gt;&lt;br /&gt;WIFI is available everywhere.&lt;/p&gt;";
+$champ_8="&lt;p&gt;The caravan and the g&amp;icirc;te are located in the upper part of the garden and benefit from a large lawn area shaded by numerous trees: fig, carob, plane tree, olive trees, ...&lt;br /&gt;&lt;br /&gt;The mazet, in the lower part of the garden, has a private equipped terrace.&lt;/p&gt;
+&lt;p&gt;during july and august, our house is fully proposed as a self catering house&lt;br /&gt;&lt;br /&gt;WIFI is available everywhere.&lt;/p&gt;";
 
 $champ_9="";
 

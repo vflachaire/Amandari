@@ -971,24 +971,25 @@ div.reserver {
 div.reserver a{
 	clear:both;
 	display:block;
-	background-color: #DE7136;
 	background-color:#f2dc10;
+	border: solid 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+	border-radius : 4px;
 	min-width:160px;
 	height:50px;
 	text-align:center;
-	color:#0a69ab;
+	color:#084c7c;
 	text-decoration:none;
 	line-height:50px;
 	text-transform: uppercase;
-	border:solid 0px red;
 	transition: background-color 0.3s ease-out;
 	vertical-align:middle;
 	padding:0px 8px;
 	margin:3px;
 }
 div.reserver a:hover {
-	text-decoration:underline;
-	background-color:#f1e787;
+	background-color: #de7136;
+	color:#02111c;
 }
 div.reserver > a, div.reserver > p {
 	display:inline-block;
